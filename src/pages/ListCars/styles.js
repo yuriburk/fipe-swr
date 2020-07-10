@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 32px;
@@ -35,5 +35,33 @@ export const CarInfo = styled.div`
   p {
     margin: 8px;
     font-weight: bold;
+  }
+
+  button {
+    padding: 5px;
+    border-radius: 4px;
+    background-color: white;
+    height: 30px;
+    width: 50%;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid;
+    border-color: #ff3c09;
+
+    &:hover {
+      background-color: #ff3c09;
+      color: white;
+    }
+  }
+`;
+
+export const ModalDiv = styled.div`
+  width: 100%;
+  height: 200px;
+  background-color: red;
+
+  h2 {
+    padding: 20px;
   }
 `;
