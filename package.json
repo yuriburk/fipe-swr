@@ -6,13 +6,16 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "add": "^2.0.6",
     "axios": "^0.19.2",
     "json-server": "^0.16.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-slick": "^0.26.1",
     "styled-components": "^5.1.1",
-    "swr": "^0.2.3"
+    "swr": "^0.2.3",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",

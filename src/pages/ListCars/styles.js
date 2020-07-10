@@ -1,27 +1,24 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  padding: 32px;
 
-  margin: 14px;
+  .slick-slide div {
+    outline: none !important;
+  }
 `;
 
 export const Card = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
-
-  flex: 1;
-  margin: 4px;
-  background-color: #f2f2f2;
-  border-radius: 8px;
-  padding: 8px;
 `;
 
 export const CardImage = styled.img`
-  width: 194px;
-  height: 164px;
+  width: 284px;
   border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: -48px;
 `;
 
 export const CarInfo = styled.div`
@@ -29,7 +26,11 @@ export const CarInfo = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex: 1;
+
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin: 4px;
+  padding: 14px;
 
   p {
     margin: 8px;
