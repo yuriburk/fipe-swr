@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import QRCode from 'qrcode.react';
 
 import { useSwr } from '../../hooks/useSwr';
-import { Container, Card, CardImage, CarInfo, ModalContainer } from './styles';
+import { Container, Card, CardImage, CarInfo } from './styles';
 import Header from '../../components/Header';
 import Modal from '../../components/Modal';
 

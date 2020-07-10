@@ -41,8 +41,6 @@ export const CarInfo = styled.div`
     padding: 5px;
     border-radius: 4px;
     background-color: white;
-    height: 30px;
-    width: 50%;
     margin-top: 15px;
     font-weight: bold;
     font-size: 15px;
