@@ -1,66 +1,59 @@
 {
   "cars": [
     {
-      "fipe_marca": "Fiat",
       "name": "ARGO DRIVE 1.0 6V Flex",
-      "marca": "FIAT",
-      "key": "argo-7965",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
       "id": "7965",
-      "fipe_name": "ARGO DRIVE 1.0 6V Flex",
       "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
     },
     {
-      "fipe_marca": "Fiat",
       "name": "ARGO DRIVE 1.0 6V Flex",
-      "marca": "FIAT",
-      "key": "argo-7965",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
       "id": "7965",
-      "fipe_name": "ARGO DRIVE 1.0 6V Flex",
       "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
     },
     {
-      "fipe_marca": "Fiat",
       "name": "ARGO DRIVE 1.0 6V Flex",
-      "marca": "FIAT",
-      "key": "argo-7965",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
       "id": "7965",
-      "fipe_name": "ARGO DRIVE 1.0 6V Flex",
       "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
     },
     {
-      "fipe_marca": "Fiat",
       "name": "ARGO DRIVE 1.0 6V Flex",
-      "marca": "FIAT",
-      "key": "argo-7965",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
       "id": "7965",
-      "fipe_name": "ARGO DRIVE 1.0 6V Flex",
       "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
     },
     {
-      "fipe_marca": "Fiat",
       "name": "ARGO DRIVE 1.0 6V Flex",
-      "marca": "FIAT",
-      "key": "argo-7965",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
       "id": "7965",
-      "fipe_name": "ARGO DRIVE 1.0 6V Flex",
       "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
     },
     {
-      "fipe_marca": "Fiat",
       "name": "ARGO DRIVE 1.0 6V Flex",
-      "marca": "FIAT",
-      "key": "argo-7965",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
       "id": "7965",
-      "fipe_name": "ARGO DRIVE 1.0 6V Flex",
       "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
     },
     {
-      "fipe_marca": "Fiat",
       "name": "ARGO DRIVE 1.0 6V Flex",
-      "marca": "FIAT",
-      "key": "argo-7965",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
       "id": "7965",
-      "fipe_name": "ARGO DRIVE 1.0 6V Flex",
+      "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
+    },
+    {
+      "name": "ARGO DRIVE 1.0 6V Flex",
+      "searchName": "argo",
+      "manufacturer": "FIAT",
+      "id": "7965",
       "image": "https://clubedoargo.com/uploads/monthly_2017_06/argo1.0.png.d6f6019b6cb3331b97a6dfe08afd88f7.png"
     }
   ]

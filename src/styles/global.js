@@ -25,6 +25,10 @@ const GlobalStyles = createGlobalStyle`
     background-color: #18202e;
     font-family: 'Roboto', sans-serif;
   }
+
+  button {
+    cursor: pointer;
+  }
 `;
 
 export default GlobalStyles;

@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 32px;
@@ -53,15 +53,5 @@ export const CarInfo = styled.div`
       background-color: #ff3c09;
       color: white;
     }
-  }
-`;
-
-export const ModalDiv = styled.div`
-  width: 100%;
-  height: 200px;
-  background-color: red;
-
-  h2 {
-    padding: 20px;
   }
 `;

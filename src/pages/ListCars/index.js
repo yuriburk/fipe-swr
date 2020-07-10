@@ -1,12 +1,11 @@
-import React, { useState } from "react";
-import Slider from "react-slick";
-import { Modal } from "react-responsive-modal";
-import "react-responsive-modal/styles.css";
-import QRCode from "qrcode.react";
+import React, { useState } from 'react';
+import Slider from 'react-slick';
+import QRCode from 'qrcode.react';
 
-import { useSwr } from "../../hooks/useSwr";
-import { Container, Card, CardImage, CarInfo, ModalDiv } from "./styles";
-import Header from "../../components/Header";
+import { useSwr } from '../../hooks/useSwr';
+import { Container, Card, CardImage, CarInfo, ModalContainer } from './styles';
+import Header from '../../components/Header';
+import Modal from '../../components/Modal';
 
 const settings = {
   dots: true,
@@ -17,15 +16,13 @@ const settings = {
 };
 
 const ListCars = () => {
-  const { data } = useSwr("cars");
+  const { data } = useSwr('cars');
   const [open, setOpen] = useState(false);
-  const [nome, setNome] = useState("");
-  const [qrCodeValue, setQrCodeValue] = useState({});
+  const [selectedCar, setSelectedCar] = useState(undefined);
 
-  const onOpen = (car) => {
-    setNome(car.name);
+  const handleClick = (car) => {
     setOpen(true);
-    setQrCodeValue(JSON.stringify(car));
+    setSelectedCar(car);
   };
 
   return (
@@ -33,14 +30,14 @@ const ListCars = () => {
       <Header>
         <img src="https://i.imgur.com/mqtCXDr.png" alt="Logo" />
       </Header>
-      <div>
-        <Modal open={open} onClose={() => setOpen(false)} center>
-          <ModalDiv>
-            <h2>{nome}</h2>
-            <QRCode value={qrCodeValue} />
-          </ModalDiv>
-        </Modal>
-      </div>
+      <Modal isOpen={open} onClose={() => setOpen(false)}>
+        <h2>{selectedCar?.name}</h2>
+        <QRCode
+          size={256}
+          renderAs="svg"
+          value={`https://www.webmotors.com.br/carros/estoque/${selectedCar?.manufacturer}/${selectedCar?.searchName}`}
+        />
+      </Modal>
       <Container>
         <Slider {...settings}>
           {data?.map((car) => (
@@ -49,7 +46,7 @@ const ListCars = () => {
               <CarInfo>
                 <p>{car.marca}</p>
                 <p>{car.name}</p>
-                <button onClick={() => onOpen(car)}>Ver peças</button>
+                <button onClick={() => handleClick(car)}>Ver peças</button>
               </CarInfo>
             </Card>
           ))}
